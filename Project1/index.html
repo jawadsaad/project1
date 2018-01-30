@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Algorithms</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./resources/css/reset.css" rel="stylesheet" type="text/css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="./resources/css/style.css" rel="stylesheet" type="text/css">
+        <script src="resources/wheelnav.js-1.7.1/raphael.min.js"></script>
+        <script src="resources/wheelnav.js-1.7.1/raphael.icons.min.js"></script>
+        <script src="resources/wheelnav.js-1.7.1/wheelnav.js"></script>
+    </head>
+
+    <body>
+<!--
+        <div class="container" id="site">
+            
+            
+            <div class="navEl" id="rot13">
+            
+            </div>
+            
+            <div class="navEl" id="seconds">
+            
+            </div>
+            
+            <div class="navEl" id="fibonacci">
+            
+            </div>
+            
+            <div class="navMain" id="wheelNav" >
+                <button id="power" onclick="expandWheel()"><i class="fa fa-power-off fa-2x" id="powericon"></i></button>
+                <div id="times"><i class="fa fa-times fa-2x" id=timesicon></i></div>
+            </div>
+            
+        </div>
+-->
+        <div class="container">
+         <div id='piemenu' data-wheelnav
+ data-wheelnav-slicepath='MenuSlice'
+ data-wheelnav-spreader data-wheelnav-spreaderpath='PieSpreader'
+ data-wheelnav-marker data-wheelnav-markerpath='MenuMarker'
+ data-wheelnav-navangle='0'
+ data-wheelnav-cssmode 
+ data-wheelnav-init>
+  <div data-wheelnav-navitemtext='About' onmouseup='displayAbout()'></div>
+  <div data-wheelnav-navitemtext='Rot13' onmouseup=''></div>
+  <div data-wheelnav-navitemtext='Seconds' onmouseup=''></div>
+  <div data-wheelnav-navitemtext='Fibonacci' onmouseup=''></div>
+</div>
+            <div id="about" class="box">
+                <p>The idea behind my first project is to showcase my skill at writing algorithms. I have written 3 algorithms for this project. Try them out for yourself! Here's what each does:</p>
+                <ul>
+                    <li>Rot13 encrypts your message using the ROT13 method.</li>
+                    <li>Seconds allows the user to enter any amount of time in seconds and get back the time in human readable format.</li>
+                    <li>Fibonacci checks whether a number is the product of 2 consecutive Fibonacci numbers.</li>
+                </ul>
+            </div>
+        </div>           
+        
+        <script src="resources/js/mainNav.js"></script>
+        
+    </body>
+</html>
